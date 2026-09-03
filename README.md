@@ -113,3 +113,42 @@ bronze/
 ├── 2023/
 ├── 2024/
 └── 2025-2026/
+
+## 🥈 Silver
+
+Camada responsável pelos dados tratados e transformados.
+
+Nesta etapa são realizados processos como:
+
+Limpeza dos dados;
+Padronização;
+Tratamento de valores nulos;
+Transformação de colunas;
+Tipagem dos dados;
+Conversão para formato Parquet.
+silver/
+├── state_of_data_2023/
+├── state_of_data_2024/
+└── state_of_data_2025_2026/
+
+## 🥇 Gold
+
+Camada destinada aos dados preparados para consumo analítico.
+
+Exemplos de informações analisadas:
+
+Remuneração;
+Senioridade;
+Tecnologias;
+Inteligência Artificial;
+Região;
+Modelo de trabalho;
+Formação;
+Perfil profissional.
+gold/
+├── remuneracao/
+├── senioridade/
+├── tecnologias/
+├── inteligencia_artificial/
+├── regiao/
+└── modelo_trabalho/
