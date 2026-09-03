@@ -25,7 +25,7 @@
       <sub><b>Henrique</b></sub><br>
       <a href="https://github.com/IkkiMachado/" target="_blank"><img width="20" height="20" src="https://img.icons8.com/ios-filled/50/github.png" alt="github"/></a>
     </td><td align="center" style="padding: 10px;">
-      <img src="https://github.com/user-attachments/assets/f8cac212-e4a6-491a-a2ea-fd4e6a9dd4d8" width="120" height="120" style="border-radius: 10px; object-fit: cover;" /><br>
+      <img src="https://github.com/user-attachments/assets/10cc8aba-a63b-4cc9-9c61-745cfa32fad9" width="120" height="120" style="border-radius: 10px; object-fit: cover;" /><br>
       <sub><b>Jennifer</b></sub><br>
       <a href="https://github.com/JenniferDaleffi/" target="_blank"><img width="20" height="20" src="https://img.icons8.com/ios-filled/50/github.png" alt="github"/></a>
     </td><td align="center" style="padding: 10px;">
