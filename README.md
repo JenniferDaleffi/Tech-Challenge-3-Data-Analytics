@@ -86,15 +86,7 @@ Consultas analíticas → Insights**
 
 ## Diagrama da Arquitetura
 
-![Arquitetura AWS](docs/arquitetura-aws.png)
-
-### Arquivo editável
-
-O diagrama também está disponível em formato Draw.io:
-
-[📐 Arquitetura AWS - Draw.io](docs/arquitetura-aws.drawio)
-
----
+<img width="1512" height="772" alt="Image" src="https://github.com/user-attachments/assets/95839a87-8bfb-40c4-a92f-bb109afe63b8" />
 
 # ☁️ Serviços AWS utilizados
 
