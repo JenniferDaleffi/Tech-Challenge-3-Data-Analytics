@@ -27,7 +27,7 @@
     </td><td align="center" style="padding: 10px;">
       <img src="https://github.com/user-attachments/assets/b900a0fb-239f-41d9-aa24-c1a3ec473af7" width="120" height="120" style="border-radius: 10px; object-fit: cover;" /><br>
       <sub><b>Jennifer</b></sub><br>
-      <a href="https://github.com/JenniferDaleffi/" target="_blank"><img width="20" height="20" src="https://img.icons8.com/ios-filled/50/github.png" alt="github"/></a>
+      <a href="https://github.com/JenniferDaleffi/" target="_blank"><img width="20" height="20" src="https://github.com/user-attachments/assets/f8cac212-e4a6-491a-a2ea-fd4e6a9dd4d8" alt="github"/></a>
     </td><td align="center" style="padding: 10px;">
       <img src="https://github.com/user-attachments/assets/be1754d2-6580-46e6-820b-b816f83188b8" width="120" height="120" style="border-radius: 10px; object-fit: cover;" /><br>
       <sub><b>Leonardo</b></sub><br>
@@ -103,48 +103,65 @@ Consultas analíticas → Insights**
 
 # 🗂️ Organização dos dados
 
-## 🥉 Bronze
+## 🥉 Bronze — Dados Brutos
 
-Camada responsável pelo armazenamento dos dados brutos,
-mantendo os arquivos em seu formato original.
+A camada **Bronze** é responsável pelo armazenamento dos dados brutos, mantendo os arquivos em seu formato original após a ingestão.
+
+As bases utilizadas correspondem às três últimas pesquisas disponíveis do **State of Data Brasil**.
+
+### Estrutura
 
 ```text
 bronze/
 ├── 2023/
 ├── 2024/
 └── 2025-2026/
+```
 
-## 🥈 Silver
+---
 
-Camada responsável pelos dados tratados e transformados.
+## 🥈 Silver — Dados Tratados
+
+A camada **Silver** contém os dados após os processos de tratamento e transformação realizados durante o pipeline de dados.
 
 Nesta etapa são realizados processos como:
 
-Limpeza dos dados;
-Padronização;
-Tratamento de valores nulos;
-Transformação de colunas;
-Tipagem dos dados;
-Conversão para formato Parquet.
+- Limpeza dos dados;
+- Padronização das informações;
+- Tratamento de valores nulos;
+- Transformação de colunas;
+- Definição e correção de tipos de dados;
+- Conversão dos dados para o formato **Parquet**.
+
+### Estrutura
+
+```text
 silver/
 ├── state_of_data_2023/
 ├── state_of_data_2024/
 └── state_of_data_2025_2026/
+```
 
-## 🥇 Gold
+---
 
-Camada destinada aos dados preparados para consumo analítico.
+## 🥇 Gold — Dados Analíticos
 
-Exemplos de informações analisadas:
+A camada **Gold** contém os dados preparados e organizados para o consumo analítico, consultas e geração de insights.
 
-Remuneração;
-Senioridade;
-Tecnologias;
-Inteligência Artificial;
-Região;
-Modelo de trabalho;
-Formação;
-Perfil profissional.
+Nesta camada são disponibilizadas informações utilizadas nas análises do projeto, como:
+
+- Remuneração;
+- Senioridade;
+- Tecnologias;
+- Inteligência Artificial;
+- Região;
+- Modelo de trabalho;
+- Formação;
+- Perfil profissional.
+
+### Estrutura
+
+```text
 gold/
 ├── remuneracao/
 ├── senioridade/
@@ -152,3 +169,4 @@ gold/
 ├── inteligencia_artificial/
 ├── regiao/
 └── modelo_trabalho/
+```
