@@ -12,7 +12,7 @@
 
 - Renan Simões de Farias – RM371818 
 
-<h3 align="center"> State of Data Brasil 🇧🇷 </h3>
+<h3 align="center"> Tema: State of Data Brasil 💻 </h3>
 
 <table align="center">
   <tr>
