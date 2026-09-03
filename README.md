@@ -39,3 +39,99 @@
     </td>
   </tr>
 </table>
+
+# Tech Challenge Data Analytics FIAP 2026 | Fase 3
+
+## 👥 Integrantes
+
+- Bruno Querobin Francisco - RM371779
+- Henrique dos Reis Machado - RM372837
+- Jennifer Eduarda Vieira Daleffi - RM374013
+- Leonardo de Carvalho Melo - RM370240
+- Renan Simões de Farias - RM371818
+
+---
+
+## 📌 Tema
+
+### State of Data Brasil
+
+Projeto desenvolvido para o Tech Challenge da FIAP – Fase 3, com foco em
+Engenharia de Dados, Big Data, Analytics e processamento em Cloud AWS.
+
+O projeto utiliza as três últimas pesquisas disponíveis do State of Data Brasil,
+realizadas pela comunidade Data Hackers em parceria com a Bain, para analisar
+o cenário do mercado brasileiro de profissionais de Dados, Analytics e
+Inteligência Artificial.
+
+---
+
+## 🎯 Objetivo
+
+Construir uma solução completa de Engenharia de Dados e Analytics em ambiente
+AWS, desde a ingestão dos dados brutos até sua disponibilização para consultas
+analíticas e geração de insights.
+
+A análise busca compreender:
+
+- Perfil dos profissionais de Dados no Brasil;
+- Formação acadêmica;
+- Experiência profissional;
+- Remuneração;
+- Senioridade;
+- Tecnologias utilizadas;
+- Utilização de Inteligência Artificial;
+- Modelo de trabalho;
+- Diferenças entre regiões;
+- Diversidade de gênero;
+- Tendências do mercado de Dados e Analytics.
+
+---
+
+# 🏗️ Arquitetura da Solução AWS
+
+A solução foi estruturada utilizando uma arquitetura de Data Lake na AWS,
+organizada em camadas Bronze, Silver e Gold.
+
+O fluxo principal da solução é:
+
+**Dados brutos → Ingestão → Processamento → Dados tratados → Catalogação →
+Consultas analíticas → Insights**
+
+## Diagrama da Arquitetura
+
+![Arquitetura AWS](docs/arquitetura-aws.png)
+
+### Arquivo editável
+
+O diagrama também está disponível em formato Draw.io:
+
+[📐 Arquitetura AWS - Draw.io](docs/arquitetura-aws.drawio)
+
+---
+
+# ☁️ Serviços AWS utilizados
+
+| Serviço | Função |
+|---|---|
+| Amazon S3 | Armazenamento das camadas Bronze, Silver e Gold |
+| AWS Glue | ETL, transformação e processamento dos dados |
+| Apache Spark / PySpark | Processamento distribuído |
+| AWS Glue Data Catalog | Catalogação dos dados, schemas e tabelas |
+| Amazon Athena | Consultas SQL e análises |
+| AWS Academy Lab | Ambiente utilizado para desenvolvimento da solução |
+
+---
+
+# 🗂️ Organização dos dados
+
+## 🥉 Bronze
+
+Camada responsável pelo armazenamento dos dados brutos,
+mantendo os arquivos em seu formato original.
+
+```text
+bronze/
+├── 2023/
+├── 2024/
+└── 2025-2026/
