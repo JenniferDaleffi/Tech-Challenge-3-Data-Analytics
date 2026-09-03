@@ -1,6 +1,6 @@
 ## Tech Challenge Data Analytics FIAP, 2026 | Fase 3
 
-## Integrantes
+## 👥 Integrantes
 
 - Bruno Querobin Francisco – RM371779
 
