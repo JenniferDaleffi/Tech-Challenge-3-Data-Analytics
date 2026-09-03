@@ -40,9 +40,7 @@
   </tr>
 </table>
 
-## 📌 Tema
-
-### State of Data Brasil
+## 📌 Tema: State of Data Brasil
 
 Projeto desenvolvido para o Tech Challenge da FIAP – Fase 3, com foco em
 Engenharia de Dados, Big Data, Analytics e processamento em Cloud AWS.
