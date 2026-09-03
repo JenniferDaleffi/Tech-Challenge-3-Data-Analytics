@@ -25,9 +25,9 @@
       <sub><b>Henrique</b></sub><br>
       <a href="https://github.com/IkkiMachado/" target="_blank"><img width="20" height="20" src="https://img.icons8.com/ios-filled/50/github.png" alt="github"/></a>
     </td><td align="center" style="padding: 10px;">
-      <img src="https://github.com/user-attachments/assets/b900a0fb-239f-41d9-aa24-c1a3ec473af7" width="120" height="120" style="border-radius: 10px; object-fit: cover;" /><br>
+      <img src="https://github.com/user-attachments/assets/f8cac212-e4a6-491a-a2ea-fd4e6a9dd4d8" width="120" height="120" style="border-radius: 10px; object-fit: cover;" /><br>
       <sub><b>Jennifer</b></sub><br>
-      <a href="https://github.com/JenniferDaleffi/" target="_blank"><img width="20" height="20" src="https://github.com/user-attachments/assets/f8cac212-e4a6-491a-a2ea-fd4e6a9dd4d8" alt="github"/></a>
+      <a href="https://github.com/JenniferDaleffi/" target="_blank"><img width="20" height="20" src="https://img.icons8.com/ios-filled/50/github.png" alt="github"/></a>
     </td><td align="center" style="padding: 10px;">
       <img src="https://github.com/user-attachments/assets/be1754d2-6580-46e6-820b-b816f83188b8" width="120" height="120" style="border-radius: 10px; object-fit: cover;" /><br>
       <sub><b>Leonardo</b></sub><br>
