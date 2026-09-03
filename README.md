@@ -12,7 +12,7 @@
 
 - Renan Simões de Farias – RM371818 
 
-<h3 align="center"> Tema: State of Data Brasil 💻 </h3>
+<h3 align="center"> State of Data Brasil 💻 </h3>
 
 <table align="center">
   <tr>
@@ -39,18 +39,6 @@
     </td>
   </tr>
 </table>
-
-# Tech Challenge Data Analytics FIAP 2026 | Fase 3
-
-## 👥 Integrantes
-
-- Bruno Querobin Francisco - RM371779
-- Henrique dos Reis Machado - RM372837
-- Jennifer Eduarda Vieira Daleffi - RM374013
-- Leonardo de Carvalho Melo - RM370240
-- Renan Simões de Farias - RM371818
-
----
 
 ## 📌 Tema
 
