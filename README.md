@@ -86,7 +86,7 @@ Consultas analíticas → Insights**
 
 ## Diagrama da Arquitetura
 
-<img width="1512" height="772" alt="Image" src="https://github.com/user-attachments/assets/1bcebe28-34da-4e0e-a506-276febbc9f06" />
+<img width="1512" height="772" alt="Image" src="https://github.com/user-attachments/assets/ffd48e60-34b3-4aa2-aa95-40534c7e9a1d" />
 
 # ☁️ Serviços AWS utilizados
 
